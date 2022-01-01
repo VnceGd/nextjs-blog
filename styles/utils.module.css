@@ -48,5 +48,11 @@
 }
 
 .lightText {
-  color: #666;
+  color: #aaa;
+}
+
+@media screen and (prefers-color-scheme: light) {
+  .lightText {
+    color: #666;
+  }
 }
